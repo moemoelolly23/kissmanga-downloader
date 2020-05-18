@@ -13,7 +13,7 @@ services:
       - java
       - -jar
       - /kissmanga-downloader.jar
-      - http://kissmanga.com/Manga/Shingeki-no-Kyojin
+      - https://kissmanga.com/Manga/It-s-Not-Meguro-san-s-First-Time
   selenium:
     image: "elgalu/selenium:latest"
     ports:
